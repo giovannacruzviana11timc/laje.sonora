@@ -12,30 +12,29 @@
     --fita: #F3C623;
     --branco: #FFFFFF;
 
-    --fonte-cartaz: "Big Shoulders Display", "Arial Narrow", sans-serif ;
+    --fonte-cartaz: "Big Shoulders", "Arial Narrow", sans-serif;
     --fonte-texto: "Archivo", Arial, sans-serif;
 }
 
 body {
-    background-color: #E2DFD8;
-    color: #0F1E3D;
-    font-family: var(fonte-texto);
+    background-color: var(--concreto);
+    color: var(--tinta);
+    font-family: var(--fonte-texto);
     font-size: 17px;
     line-height: 1.55;
-
 }
 
-a{
-    color: #0F1E3D inherit;
+a {
+    color: inherit;
 }
 
-h1, h2, h3 {
-    font-family: var(fonte-cartaz);
+h1,h2,h3 {
+    font-family: var(--fonte-cartaz);
     font-weight: 900;
-    line-height: 0.90;
+    line-height: 0.95;
 }
 
-.conteudo { 
+.conteudo {
     max-width: 1200px;
     margin-inline: auto;
     padding-inline: 32px;
